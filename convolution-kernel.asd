@@ -5,8 +5,9 @@
   :homepage "https://git.mfiano.net/mfiano/convolution-kernel"
   :version "0.1.0"
   :encoding :utf-8
-  :depends-on (#:tile-grid
-               #:mfiano-utils)
+  :depends-on
+  (#:tile-grid
+   #:mfiano-utils)
   :pathname "src"
   :serial t
   :components
